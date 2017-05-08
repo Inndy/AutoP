@@ -1,0 +1,2 @@
+git+https://github.com/clsung/plurk-oauth
+python-dateutil
