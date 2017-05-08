@@ -41,7 +41,7 @@ else:
         diff -= d * time_delta
         if d: r.append('%d%s' % (d, unit))
     time = ''.join(r)
-    r = plurk.callAPI('/APP/Timeline/plurkAdd', {'content': '我已經有%s忘了發噗啦！ [emo5]' % time, 'qualifier': 'feels'})
+    r = plurk.callAPI('/APP/Timeline/plurkAdd', {'content': '我已經有%s忘了發噗啦！ [emo5]\nhttps://github.com/Inndy/AutoP (from AutoP)' % time, 'qualifier': 'feels'})
     if r:
         print('[+] plurk posted')
     else:
